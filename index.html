@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nike Online shopping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">nike</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#review">review</a>
+    </nav>
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+</header>
+
+<section class="home" id="home">
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>nike red shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>
+                    This fiery color isn't just for show; it embodies the intensity you bring to every training session. The Nike Red Metcon is more than a shoe, it's a declaration of your commitment to conquering your goals.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/nike-red.jpg" class="shoe" alt="" >
+        
+            </div>
+           
+        </div>
+        
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>nike blue shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>
+                    Embrace the icy focus of the Nike Metcon Blue. This cool shade inspires a sense of tranquility and precision, allowing you to execute every move with laser focus. As you navigate complex exercises and high-intensity drills, the serene blue aura keeps your mind centered and your performance on point.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/nike-blue.jpeg" class="shoe" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>nike yellow shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>
+                    Step into the sunshine with the Nike Metcon Yellow. This vibrant hue injects a dose of optimism and cheerfulness into your training.  Let the infectious energy of yellow transform your workouts into joyful expressions of self-improvement. The Nike Yellow Metcon radiates positivity, pushing you towards your fitness goals with an infectious grin.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/nike-yello.jpeg" class="shoe" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+</section>
+
+<section class="service">
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>fast delivery</h3>
+            <p>Order today, enjoy it tomorrow. Speedy delivery that keeps you smiling.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 days replacements</h3>
+            <p>Shop with confidence. 10-day guarantee on replacements.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 support</h3>
+            <p>No matter your time zone, we're in your corner (24/7).</p>
+        </div>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h1 class="heading"> latest <span>products</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-1.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">₹4 295.00 <span>₹4 999.00</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-2.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">₹10 295.00 <span>₹15 000.00</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-3.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">5 000.00<span>₹5 295.00</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-4.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">₹6 000.00 <span>₹6 999.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-5.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">₹3 295.00<span>₹3 999.00</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-6.jpeg" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">₹7 295.00<span>₹7 999.00</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured</span> products </h1>
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/4_1.png" class="featured-image-1" alt="">
+                <img src="images/4_2.png" class="featured-image-1" alt="">
+                <img src="images/4_3.png" class="featured-image-1" alt="">
+                <img src="images/4_4.png" class="featured-image-1" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/air jorden 4.png" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Air Jordan 1 Brooklyn</h3>
+            <p>Women's Boot</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                This bold, rugged sneaker boot is key for your rotation. The luxe full-grain leather is combined with a chunky platform sole to pump up your personal style. The exaggerated outsole lugs and Nike Air cushioning support your steps. And don't sleep on the AJ1
+            </p>
+            <div class="price">₹15 295.00<span>₹17 999.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/2_!.png" class="featured-image-2" alt="">
+                <img src="images/2_2.jpeg" class="featured-image-2" alt="">
+                <img src="images/air jorden2.png" class="featured-image-2" alt="">
+                <img src="images/2_4.png" class="featured-image-2" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/2_3.png" class="big-image-2" alt="" >
+            </div>
+        </div>
+        <div class="content">
+            <h3>Jordan 1 Retro High OG</h3>
+            <p>Younger Kids' Shoes</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Lead your kid into the heart of sneaker culture with these scaled-down Js. Legendary design elements and durable materials amplify your little baller's everyday game.
+            </p>
+            <div class="price">₹6 495.00<span>₹8495.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/3_1.png" class="featured-image-3" alt="">
+                <img src="images/3_2.png" class="featured-image-3" alt="">
+                <img src="images/3_3.png" class="featured-image-3" alt="">
+                <img src="images/3_4.png" class="featured-image-3" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/air jorden 3.png" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Jordan Max Aura 5</h3>
+            <p>Men's Shoes</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Whenyou need a shoe that's ready 24/7, it's gotta be the Max Aura 5. Inspired by the AJ3, this pair of kicks puts a modern spin on the classic. They're made from durable leather and textiles that sit atop a heel of Nike Air cushioning so you can walk, run or skate all day and still have fresh-feeling soles.
+            </p>
+            <div class="price">₹11 895.00<span>₹16 999.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading"> customer's <span>review</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/pic-2.jpg" alt="">
+            <h3>Emily T</h3>
+            <p>
+                "Nike shoes are always on trend, and I love the variety of styles they offer. I can find a pair that goes with anything in my wardrobe, from casual outfits to workout clothes. They're a great way to add a touch of personality to my look." - Emily T.
+            </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/pic-2.avif" alt="">
+            <h3>Lisa B.</h3>
+            <p>
+                "While Nike shoes may not be the cheapest option, I believe they're worth the investment. The combination of comfort, performance, style, and durability makes them a great value for your money. You won't be disappointed!" - Lisa B.
+            </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/pic-3.jpg" alt="">
+            <h3>Michael L.</h3>
+            <p>
+                "I've had my Nike shoes for years now, and they're still going strong. They're made with high-quality materials that can withstand even the most intense workouts. I know I can always rely on Nike for shoes that will last." - Michael L.
+            </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <div class="content">
+        <h3>monthly newsletter</h3>
+        <p>
+            Be the first to snag the latest Nike releases. Subscribe to our newsletter and unlock early access to limited-edition drops, exclusive colorways, and member-only sales. Don't miss out on the hottest styles!
+        </p>
+        <form action="">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+</section>
+
+<section class="footer">
+   <div class="box-container">
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">paris</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">featured</a>
+            <a href="#">review</a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my orders</a>
+            <a href="#">newsletter</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+        <div class="credit">created by <span> miss. web designer </span> | all rights reserved</div>
+    </div>
+</section>
+
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+    
+</body>
+</html>
